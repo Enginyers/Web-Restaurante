@@ -1,0 +1,240 @@
+@charset "utf-8";
+/* CSS Document */
+
+@font-face{
+		font-family:fuentepersonal;
+		font-style:normal;
+		font-weight:normal;
+		src: url(fonts/BodoniFLF-Roman.ttf);
+}
+
+body {
+	color: #F7DEC0; /* color del texto */
+	/*background-color: #000; /* color del fondo */
+	font-size: 24px;
+	background-image: url(../imagenes/overlay.png);
+	position: relative;
+  	bottom: -15px;
+	background-size:100% 100%;
+	overflow-x:hidden; /*quitar scroll horizontal*/
+	/*opacity: 0.3;*/
+	/*background-repeat: repeat;*/
+	margin:0px 0px 0px 0px;
+     }
+	 
+	 
+ul
+	{
+		list-style-type: circle; /* cambia los punticos de la lista circle - disc - square */
+		color: #000;
+		list-style-position:inside;
+		 border-radius:20px; /* redondea la barra de navegacion */
+	}
+
+.menu
+	{
+		background:rgba(241,235,227,0.9);
+		list-style:none;
+		/*padding: 0; /*o lo que necesites*/
+    	/*min-height: 25px; /*o lo que necesites*/
+		margin: 25px;		
+	}
+	
+.menu li
+		{
+			display:inline-block;
+		}
+.menu li a
+		 {
+			 /*padding: 10px 20px;  */
+			 font-family:fuentepersonal;
+			 display: inline-block;
+			 color: #000;
+			 font-size: 18px;
+		 }
+.menu li a:hover
+		 {
+			 background: rgba(255,255,255,0.8); 
+			 box-shadow:0px 5px 0px  #000000;
+		 }	
+
+.menu li img {
+		 /*padding: 10px 20px;*/
+  display: inline-block;
+  vertical-align: middle;
+  width: 180px;
+	}
+	
+.izquierdo{
+			/*position:relative;*/
+			/*background-color: green;*/
+			color: white;
+    		margin: 20px;
+    		padding: 20px;
+			width: 100px;
+			heigth: 105px;
+			float:left;
+			/*float:left;*/
+		   }
+
+.central {
+			/*position:absolute;*/
+			background: rgba(0, 0, 0, 0.7);
+			color: white;
+    		margin: 20px;
+    		padding: 20px;
+			width: 900px;
+			heigth:900px;
+			float:left;
+			border: 1px solid #FFCC00;
+		   }	
+
+h2 {
+		font-family:fuentepersonal;
+		color:#000;
+		font-size:52px;
+		margin: 2px; 
+	   	padding: 2px;
+		
+   }
+	
+h1 {
+	    color:#FFF;
+		margin: 5px; 
+	   	padding: 5px;
+		text-align:left;
+		font-family:fuentepersonal;
+	}
+	
+p,a {
+	font-size: 18px;
+	color: #67270C;
+	text-align: center;
+	margin: 5px;
+	padding: 5px;
+	font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+	font-weight: normal;
+	  }
+.pcarta {
+	font-size: 16px;
+	color: rgba(241,235,227,0.9);
+	text-align: justify;
+	margin: 5px;
+	padding: 5px;
+	font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+	font-weight: normal;
+	  }	
+iframe{
+		width:840px;
+		height:585px; 
+	  }
+		 
+.linea {
+			color: yellow;
+    		margin: 0px;
+    		padding:20px;
+			width: 1300px; 
+			heigth: 100px;
+			float:left;
+			/*opacity:0.1;
+			/*float:left;*/
+		   }
+		  	  
+.footer {
+			background-color: rgba(0, 0, 0, 0.8);
+			color: white;
+    		margin: 10px;
+    		padding:15px;
+			width: 1300px; 
+			heigth: 800px;
+			float:left;
+			background-repeat: no-repeat;
+			/*float:left;*/
+		   }
+.sub-footer-izq {
+			/*background-color: green;*/
+			color: white;
+    		margin: 10px;
+    		padding:15px;
+			width: 150px; 
+			heigth:150px;
+			float:left;
+			background-repeat: no-repeat;
+			/*float:left;*/
+		   }
+.listafooter li a 
+     { 
+	 	margin: 0px;
+		padding:0px;
+	 	color: #FFF;
+	 }
+.listafooter
+		{
+			list-style-type: none;
+			margin: 0px;
+		}
+
+.sub-footer-centro {
+			/*background-color: green;*/
+			color: white;
+    		margin: 10px;
+    		padding:45px;
+			width: 850px; 
+			heigth:200px;
+			float:left;
+			background-repeat: no-repeat;
+			/*float:left;*/
+		   }	
+.iconos {
+		 /*padding: 10px 20px;*/
+  	display:inline-block;
+	margin: auto;
+  	width: 60px;
+	}		    
+.info {
+	font-size: 18px;
+	color: #FFF;
+	text-align: center;
+	margin: 5px;
+	padding: 5px;
+	font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+	font-weight: normal;
+	  }	
+	   
+i {
+	color:#FFF;
+   }
+   
+				
+.logo {
+	background-color: gray;
+    color: white;
+    margin: 20px;
+    padding: 20px;
+		  }
+.centro {
+	
+			height: 200px;
+			width: 500px;
+			float:left;
+		  }
+	  	  
+.imghistoria {
+	border: medium double #FFF;
+	display: block;
+	margin: 0px;
+	padding: 0px;
+    }
+	
+.cities {
+    background-color: black;
+    color: white;
+    margin: 20px;
+    padding: 20px;
+}
+.cities1 {
+    background-color: green;
+    color: white;
+    margin: 20px;
+    padding: 20px;
+}																																							
